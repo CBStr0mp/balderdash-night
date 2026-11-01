@@ -1,0 +1,20 @@
+{
+  "name": "balderdash-night",
+  "version": "1.0.0",
+  "description": "A bluffing word game for phones: write fake definitions, vote for the real one.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/e2e.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "playwright": "^1.47.0"
+  }
+}
